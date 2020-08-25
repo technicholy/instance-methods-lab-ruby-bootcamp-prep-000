@@ -1,3 +1,5 @@
+require "../lib/dog"
+require "../lib/person"
 describe 'Dog' do
   it 'is defined' do
     expect(defined?(Dog)).to be_truthy
