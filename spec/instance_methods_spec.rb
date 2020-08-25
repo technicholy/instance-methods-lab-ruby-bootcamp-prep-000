@@ -1,5 +1,3 @@
-require_relative "../lib/dog"
-require_relative "../lib/person"
 describe 'Dog' do
   it 'is defined' do
     expect(defined?(Dog)).to be_truthy
